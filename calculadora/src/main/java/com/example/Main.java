@@ -21,8 +21,13 @@ public class Main {
             resultado = numero1 + numero2;
         } else if (operador = '-') {
             resultado = numero1 + numero2;
+        } else if (operador = '*') {
+            resultado = numero1 * numero2;
+        } else if (operador = '/') {
+            resultado = numero1 / numero2;
         }
 
         System.out.println("El resutado es: " + resultado);
+
     }
 }
