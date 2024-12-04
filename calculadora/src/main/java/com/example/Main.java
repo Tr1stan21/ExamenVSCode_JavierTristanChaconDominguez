@@ -10,7 +10,7 @@ public class Main {
         int numero1 = Integer.parseInt(scanner.nextLine());
 
         System.out.println("Ingresa el operador: ");
-        char operador = scanner.CharAt(0);
+        char operador = scanner.next().charAt(0);
 
         System.out.println("Ingresa el segundo operando: ");
         int numero2 = Integer.parseInt(scanner.nextLine());
